@@ -23,8 +23,9 @@ When hovering over the menu, the changing size of the text indicates that they c
 
 #### **Which color palette will you use? Which typography?**
 
-To help the page look even less overcrowded and minimalist, I selected only two colors with very high contrast.
+To help the page look even less overcrowded and minimalist, and taking notes from the works of Keita Yamada, I selected only two colors with very high contrast.
 These colors are:
+
 ![Pallete](https://github.com/QcTL/CV/blob/main/img/ColorPalete.png?raw=true "Pallete")
 
 
@@ -45,5 +46,5 @@ https://www.figma.com/file/Pot7t0zsGzrE2APG1nnhBE/Protaflois-Figma?node-id=0%3A1
 https://www.maxenceriffault.com/
 https://www.micheleverze.com/
 
-The base and minimalistic ideas, inspired by the talented Keita Yamada:
+The base squares and minimalistic ideas, inspired by the talented Keita Yamada:
 https://p5aholic.me/
