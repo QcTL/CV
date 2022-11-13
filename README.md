@@ -22,11 +22,11 @@ The categorization of content to be easily found was the core of the web design,
 #### **Which color palette will you use? Which typography?**
 
  I tried to keep the page bicolor so the only colors I chose were:
-![Pallete](img/ColorPalete.jpg?raw=true "Pallete")
+![Pallete](https://github.com/QcTL/CV/blob/main/img/ColorPalete.png?raw=true "Pallete")
 
 
 To make sure everybody that enters the web have the same appearance I didn’t use a font that has been already installed in the computer, because this means that someone that doesn't have it installed will see the page different, for that reason I imported the font from google fonts each time that you load the page you will have the same font. The fonts name is Raleway. 
-![Font Used](img/fontUsed.jpg?raw=true "Font")
+![Font Used](https://github.com/QcTL/CV/blob/main/img/fontUsed.png?raw=true "Font")
 
 #### **Which page layout? **
 
