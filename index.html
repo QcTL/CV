@@ -21,17 +21,15 @@
                     <div class="subText">
                         <h2>Computer Engineer</h2>
                     </div>
-                    <div class="left-menu">
-                        <ul>    
-                            <li onclick="document.getElementById('prog-section').scrollIntoView({behavior: 'smooth'});">Programing Llenguages</li>
-                            <li onclick="document.getElementById('aboutme-section').scrollIntoView({behavior: 'smooth'});">About Me</li>
-                            <li onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth'});">Contact Me</li>
-                        </ul>
-                    </div>
+                   
                 </div>
                 <div class="topCard-right">
-                    <div class="text">
-                        <p>For real though man, found you randomly on spotify as soon as you released light touch and ive been hooked on your style and your music and your shit since. im so happy I checked spotify again for these new tunes because they're up, I can't wait for more man. you have no idea how stoked I am after work to get home and jam on my drums and sing these tunes and shit. so awesome. fucking hilarious</p>
+                    <div class="right-menu">
+                        <ul>    
+                            <li onclick="document.getElementById('prog-section').scrollIntoView({behavior: 'smooth', block: 'center'});">Programing Llenguages</li>
+                            <li onclick="document.getElementById('aboutme-section').scrollIntoView({behavior: 'smooth', block: 'center'});">About Me</li>
+                            <li onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth', block: 'center'});">Contact Me</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -41,28 +39,28 @@
 
             <div class="list-show-len">
                 <div class="show-len"><h2 class="show-len-top">C++</h2><h3 class="show-len-bot"> 3.5 / 5</h3></div>
-                <div class="show-len"><h2 class="show-len-top">Python</h2><h3 class="show-len-bot">4 / 5</h3></div>
+                <div class="show-len"><h2 class="show-len-top">Python</h2><h3 class="show-len-bot">3 / 5</h3></div>
                 <div class="show-len"><h2 class="show-len-top">Java</h2><h3 class="show-len-bot">3 / 5</h3></div>
                 <div class="show-len"><h2 class="show-len-top">HTML/CSS</h2><h3 class="show-len-bot">4 / 5</h3></div>
-                <div class="show-len"><h2 class="show-len-top">SQL</h2><h3 class="show-len-bot"> 3 / 5</h3></div>
+                <div class="show-len"><h2 class="show-len-top">SQL</h2><h3 class="show-len-bot"> 2.5 / 5</h3></div>
             </div>
 
             <div class = "list-and-show">
-                <div class ="block-info-projecte" onload="changeCardProjects('Simply Timer','C++','This desktop app make with the graphical library raylib, is a simple aplication to keep track onthe progres of various timers at the same time, helping the user see how are they spending the time. Or simply to keep track on the time you spend on each project.')">
+                <div class ="block-info-projecte" onload="changeCardProjects('Simply Timer','C++','This desktop app made with the graphical library Raylib, is a simple application to keep track of the progress of various timers at the same time, helping the user see how are they spending their time. Or simply to keep track of the time you spend on each project.')">
                     <h2 class="project-name" id="cart-project-name">Project Name</h2>    
-                    <h3 class="project-len"  id="cart-project-len">Llenguage Projecte</h3>
-                    <p class="project-disc" id="cart-project-disc"> Descripcio del projece, aquesta hauria de ocupar com dues lineas o aixi</p>
+                    <h3 class="project-len"  id="cart-project-len"> Project Llenguage </h3>
+                    <p class="project-disc" id="cart-project-disc"> Project Description</p>
                 </div>
                 <div class="scroll">
                     <h3>Hover to show more details:</h3>
                     <div class="scroll-div">
                         <ul>
-                            <li><div class="project-cont" onmouseenter="changeCardProjects('Simply Timer','C++','This desktop app make with the graphical library raylib, is a simple aplication to keep track onthe progres of various timers at the same time, helping the user see how are they spending the time. Or simply to keep track on the time you spend on each project.')"><p class="project-name">Simply Timer</p><p class="project-len">C++</p></div></li>
-                            <li><div class="project-cont" onmouseenter="changeCardProjects('Automatic Rantsona','Python','Aplicacio per generar video reacio amb personatges avatars, permet canviar de escenari i moure lleugerament el personatge per representar la parla. Tot configurable fins l\'ultim detall.')"><p class="project-name">Automatic Rantsona</p><p class="project-len">Python</p></div></li>
-                            <li><div class="project-cont" onmouseenter="changeCardProjects('KiloGames','C','A set of games develop to be played in the terminal with the condition that they have to be smaller than 10 KiloBytes each one.')"><p class="project-name">KiloGames</p><p class="project-len">C++</p></div></li>
-                            <li><div class="project-cont" onmouseenter="changeCardProjects('Water It','Python','An app made with tkinter in python to keep track of your plants, you can set the time between watering the plant to let the app keep track of what plants you have to water each day.')"><p class="project-name">Water It</p><p class="project-len">Python</p></div></li>
-                            <li><div class="project-cont" onmouseenter="changeCardProjects('Memorizing Words','Python','A game made with python and pygame to improve memory, you play by reading and memorizing the words that appear on the screen, and after a set time, they disappear, and you will have to enter all the words without forgetting none. It can be played with any language given the dictionary')"><p class="project-name">MemorizingWords</p><p class="project-len">Python</p></div></li>
-                            <li><div class="project-cont" onmouseenter="changeCardProjects('MineSweeper','C++','To get me familiarized with the RayLib library, a C++ and C library to create graphial Apps with low level control on how you develop the app. To practice it I recreated the well known game of MineSweeper with the addition of scrolling in the map to make it as big as the user wants it and not beeing limited to the size of the window')"><p class="project-name">MineSweeper-RayLib </p><p class="project-len">C++</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Simply Timer','C++','This desktop app made with the graphical library Raylib, is a simple application to keep track of the progress of various timers at the same time, helping the user see how are they spending their time. Or simply to keep track of the time you spend on each project.')"><p class="project-name">Simply Timer</p><p class="project-len">C++</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Automatic Rantsona','Python','Application made using the library Pygame to generate video reaction with user-introduced images, allows to change the background, moving slowly if the user isn\'t speaking and jumping and changing avatar if it does. Everything is customizable to generate the video avatar reaction you desire.')"><p class="project-name">Automatic Rantsona</p><p class="project-len">Python</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('KiloGames','C','A set of games develop to be played in the terminal, with the condition that they have to be smaller than 10 KiloBytes each.')"><p class="project-name">KiloGames</p><p class="project-len">C++</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Water It','Python','An app made with Tkinter in python to keep track of your plants, you can set the time between watering the plant to let the app keep track of what plants you have to water each day.')"><p class="project-name">Water It</p><p class="project-len">Python</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Memorizing Words','Python','A game made with python and Pygame to improve memory, you play by reading and memorizing the words that appear on the screen, and after a set time, they disappear, and you will have to enter all the words without forgetting none. It can be played with any language if you enter the prefered dictionary.')"><p class="project-name">MemorizingWords</p><p class="project-len">Python</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('MineSweeper','C++','To get me familiarized with the RayLib library, a C++ and C library to create graphical Apps with low-level control on how you develop the app. To practice it I recreated the well-known game of MineSweeper with the addition of scrolling in the map to make it as big as the user wants it and not be limited to the size of the window.')"><p class="project-name">MineSweeper-RayLib </p><p class="project-len">C++</p></div></li>
                         </ul>
                     </div>
                 </div>
@@ -76,9 +74,9 @@
         <div class="aboutme-div">
             <h2 class="aboutme-title">About me:</h2>
             <p class="aboutme-maintext">
-                Always searching to get simple and scalable solution. With experienience in modular programing and object oriented, always disagning before implementing to get the best change of doing it right.
-                I like to always learn new programing languages to improve in the skills that all have in common, problem solving. And to known in each specific case with techonlogy will be the most usefull to implement.
-                I spend my youth creating videogames with C# in Unity and making my one pixelArt to use in my games. 
+                Always searching to get a simple and scalable solution. With experience in modular programming and object-oriented, always design and study it to see potential errors before implementing it to get the best chance of doing it right the first time.
+                I like to always learn new programming languages to improve the skills that all have in common, problem-solving. And to know in each specific case which technology will be the most useful to implement.
+                I spend my youth creating video games with C# in Unity and making my pixel art to use in my games. 
             </p>
             <h2 class="aboutme-title">Education:</h2>
             <h3>

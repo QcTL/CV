@@ -179,20 +179,23 @@
 }
 
 
-/*Left NAV Menu*/
-.left-menu{
+/*RIGHT NAV Menu*/
+.right-menu{
     position: absolute;
     bottom: 0px;
     margin-bottom: 100px;
+    margin-right: 20px;
+    right: 0px;
 }
 
-.left-menu ul{
+.right-menu ul{
     list-style: circle;
+    direction: rtl;
 }
-.left-menu li{
+.right-menu li{
     transition: all 0.3s ease;
 }
-.left-menu li:hover{
+.right-menu li:hover{
     font-size: calc(9px + 0.9vw);
 }
 /*END TOP SCREEN BASIC INFORMATION*/
