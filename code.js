@@ -24,3 +24,7 @@ function reloadMenuHieghtApear(){
     }
     window.addEventListener("scroll", scrollToShow); 
 }
+
+function onSummitForm(){
+    alert("The e-mail was sent correctly");
+}
