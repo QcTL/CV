@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet"> 
+  
+</head>
+<body onload="loadFuntionsStart()">
+    <div id="center-topCard">
+            <div class="topCard">
+                <div class="topCard-left">
+                    <div class="name">
+                        <h1>Jordi Plana </h1>
+                    </div>
+                    <div class="subText">
+                        <h2>Computer Engineer</h2>
+                    </div>
+                    <div class="left-menu">
+                        <ul>    
+                            <li onclick="document.getElementById('prog-section').scrollIntoView({behavior: 'smooth'});">Programing Llenguages</li>
+                            <li onclick="document.getElementById('aboutme-section').scrollIntoView({behavior: 'smooth'});">About Me</li>
+                            <li onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth'});">Contact Me</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topCard-right">
+                    <div class="text">
+                        <p>For real though man, found you randomly on spotify as soon as you released light touch and ive been hooked on your style and your music and your shit since. im so happy I checked spotify again for these new tunes because they're up, I can't wait for more man. you have no idea how stoked I am after work to get home and jam on my drums and sing these tunes and shit. so awesome. fucking hilarious</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div id="prog-section">
+
+            <div class="list-show-len">
+                <div class="show-len"><h2 class="show-len-top">C++</h2><h3 class="show-len-bot"> 3.5 / 5</h3></div>
+                <div class="show-len"><h2 class="show-len-top">Python</h2><h3 class="show-len-bot">4 / 5</h3></div>
+                <div class="show-len"><h2 class="show-len-top">Java</h2><h3 class="show-len-bot">3 / 5</h3></div>
+                <div class="show-len"><h2 class="show-len-top">HTML/CSS</h2><h3 class="show-len-bot">4 / 5</h3></div>
+                <div class="show-len"><h2 class="show-len-top">SQL</h2><h3 class="show-len-bot"> 3 / 5</h3></div>
+            </div>
+
+            <div class = "list-and-show">
+                <div class ="block-info-projecte" onload="changeCardProjects('Simply Timer','C++','This desktop app make with the graphical library raylib, is a simple aplication to keep track onthe progres of various timers at the same time, helping the user see how are they spending the time. Or simply to keep track on the time you spend on each project.')">
+                    <h2 class="project-name" id="cart-project-name">Project Name</h2>    
+                    <h3 class="project-len"  id="cart-project-len">Llenguage Projecte</h3>
+                    <p class="project-disc" id="cart-project-disc"> Descripcio del projece, aquesta hauria de ocupar com dues lineas o aixi</p>
+                </div>
+                <div class="scroll">
+                    <h3>Hover to show more details:</h3>
+                    <div class="scroll-div">
+                        <ul>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Simply Timer','C++','This desktop app make with the graphical library raylib, is a simple aplication to keep track onthe progres of various timers at the same time, helping the user see how are they spending the time. Or simply to keep track on the time you spend on each project.')"><p class="project-name">Simply Timer</p><p class="project-len">C++</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Automatic Rantsona','Python','Aplicacio per generar video reacio amb personatges avatars, permet canviar de escenari i moure lleugerament el personatge per representar la parla. Tot configurable fins l\'ultim detall.')"><p class="project-name">Automatic Rantsona</p><p class="project-len">Python</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('KiloGames','C','A set of games develop to be played in the terminal with the condition that they have to be smaller than 10 KiloBytes each one.')"><p class="project-name">KiloGames</p><p class="project-len">C++</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Water It','Python','An app made with tkinter in python to keep track of your plants, you can set the time between watering the plant to let the app keep track of what plants you have to water each day.')"><p class="project-name">Water It</p><p class="project-len">Python</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Memorizing Words','Python','A game made with python and pygame to improve memory, you play by reading and memorizing the words that appear on the screen, and after a set time, they disappear, and you will have to enter all the words without forgetting none. It can be played with any language given the dictionary')"><p class="project-name">MemorizingWords</p><p class="project-len">Python</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('MineSweeper','C++','To get me familiarized with the RayLib library, a C++ and C library to create graphial Apps with low level control on how you develop the app. To practice it I recreated the well known game of MineSweeper with the addition of scrolling in the map to make it as big as the user wants it and not beeing limited to the size of the window')"><p class="project-name">MineSweeper-RayLib </p><p class="project-len">C++</p></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="code.js">
+
+            </script>
+    </div>
+    <div id="aboutme-section">
+        <div class="aboutme-div">
+            <h2 class="aboutme-title">About me:</h2>
+            <p class="aboutme-maintext">
+                Always searching to get simple and scalable solution. With experienience in modular programing and object oriented, always disagning before implementing to get the best change of doing it right.
+                I like to always learn new programing languages to improve in the skills that all have in common, problem solving. And to known in each specific case with techonlogy will be the most usefull to implement.
+                I spend my youth creating videogames with C# in Unity and making my one pixelArt to use in my games. 
+            </p>
+            <h2 class="aboutme-title">Education:</h2>
+            <h3>
+                University of Girona - Computer Engineering
+            </h3>
+            <p class ="work-time">2020 - 2024</p>
+            <br>
+        </div>
+        <div class="pastExp-div">
+            <h2 class="pastExp-title">Past Work Experience:</h2>
+            <ul>
+                <li><h3 class ="work-title">SYSTEMS MANAGEMENT ASSISTANT</h3><p class ="work-time">5/2018-5/2018</p><p class ="work-desc">Organitzation and repairing of System Managments, automatic installation and video recordings</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <div id="contact-section">
+        <div class="contact-and-info">
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <form action="https://formsubmit.co/multimediacontactus@gmail.com" method="POST">
+                        <div class="textfields">
+                        <label>Name</label>
+                        <input type="text"  name="name" required>
+                        <label>Email</label>
+                        <input type="text"  name="email" placeholder="Email Address" required>
+                        <label>Message</label>
+                        <textarea  type="message" name="message" rows="20" cols="50"></textarea>
+                        <input type="hidden" name="_subject" value="Someone Has Summited a Form">
+                        <button type ="submit">Send</button>
+                    </form>
+                    </div>
+                </div>
+            <div class="social-info">
+                <h3>Where to find me:</h3>
+                <p><img src="/img/icn_twitter.png" width="25" height="25" id="img-twitter"></img><a href="https://www.google.com/"> Twitter</a></p>
+                <p><img src="/img/icn_github.png" width="25" height="25" id="img-twitter"></img><a href="https://github.com/QcTL/"> GitHub</a></p>
+                <p><img src="/img/icn_twitter.png" width="25" height="25" id="img-twitter"></img><a href="https://stackoverflow.com/users/13067345/qctl"> StackOverFlow</a></p>
+            </div>
+        </div>    
+    </div>
+
+
+    <div id="menu-nav"class ="menuDisabled">
+        <ul>    
+            <li onclick="document.getElementById('center-topCard').scrollIntoView({behavior: 'smooth', block: 'center'});">Title</li>
+            <li onclick="document.getElementById('prog-section').scrollIntoView({behavior: 'smooth', block: 'center'});">Programing Llenguages</li>
+            <li onclick="document.getElementById('aboutme-section').scrollIntoView({behavior: 'smooth', block: 'center'});">About Me</li>
+            <li onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth', block: 'center'});">Contact Me</li>
+        </ul>
+    </div>
+</body>
+</html>
