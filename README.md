@@ -49,5 +49,10 @@ https://www.micheleverze.com/
 The base squares and minimalistic ideas, inspired by the talented Keita Yamada:
 https://p5aholic.me/
 
+
+> ![Web1](https://user-images.githubusercontent.com/71326643/233487505-794826c7-d8c3-4d0b-bb93-7247f9726b7a.png)
+> ![Web2](https://user-images.githubusercontent.com/71326643/233487511-d934dabf-8f9c-4778-afed-b9715c58f33d.png)
+> Images of Web
+
 ## Link Web:
 https://qctl.github.io/CV/
