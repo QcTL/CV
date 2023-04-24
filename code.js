@@ -1,7 +1,15 @@
-function changeCardProjects(nameProject, lenProject, description){
+function changeCardProjects(nameProject, lenProject, description, link){
     document.getElementById('cart-project-name').innerHTML = nameProject;
     document.getElementById('cart-project-len').innerHTML = lenProject;
     document.getElementById('cart-project-disc').innerHTML = description;
+
+    if (link != ""){
+        document.getElementById('cart-project-link').setAttribute("href", link);
+        document.getElementById('cart-project-link').innerHTML = "Link Project";
+    }else{
+        document.getElementById('cart-project-link').setAttribute("href", "");
+        document.getElementById('cart-project-link').innerHTML = "";
+    }
 }
 
 function loadFuntionsStart(){

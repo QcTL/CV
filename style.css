@@ -260,6 +260,7 @@
 }
     /*Block Left INFO PROJECT*/
     .block-info-projecte{
+        position: relative;
         border: 3px solid white;
         width: 500px;
         height: 500px;
@@ -269,7 +270,7 @@
     }
     .project-disc{
         margin-top: 40px;
-        width: 50%;
+        width: 90%;
     }
 
     .project-len{
@@ -277,6 +278,13 @@
         font-style: italic;
         color:rgb(172, 172, 172);
     }
+
+    .project-link {
+        position:absolute;
+        bottom: 0px;
+        margin-bottom: 20px;
+    }
+
     /*END Block Left INFO PROJECT*/
     /*List PROJECTS Right, LIST OF ALL THE PROJECTS*/
     .project-cont{
@@ -292,6 +300,7 @@
         font-weight: bold;
     }
     .scroll-div{
+        padding-top: 10px;
         width: 500px;
         height: 300px;
         overflow: hidden;
@@ -303,8 +312,25 @@
 
     /*Hide scroll of list projects*/
     .scroll-div::-webkit-scrollbar {
-        display: none;
+        width: 6px;
+
     }
+
+    ::-webkit-scrollbar-track{
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background-color: white;
+        border-radius: 20px;
+        border: 3px solid transparent;
+    }
+
+    *{
+        scrollbar-width: thin;
+        scrollbar-color: white transparent;
+    }
+
     /*END List PROJECTS Right, LIST OF ALL THE PROJECTS*/
 /*END PROJECT LIST AND SHOW DESCRIPTION:*/
 
