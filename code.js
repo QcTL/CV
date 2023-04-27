@@ -40,7 +40,7 @@ function onSummitForm(){
 
 
 dirText = {
-    "txt-ComputerEngineer-cat" : "Enginyer Informatic",
+    "txt-ComputerEngineer-cat" : "Enginyer Informàtic",
     "txt-ComputerEngineer-eng" : "Computer Engineer ",
     "txt-ProgramingLanguages-cat" : "Llenguatges de Programació",
     "txt-ProgramingLanguages-eng" : "Programing Languages",
@@ -48,22 +48,21 @@ dirText = {
     "txt-AboutMe-eng" : "About Me",
     "txt-ContactMe-cat": "On trobar-me",
     "txt-ContactMe-eng": "Contact Me",
-    "txt-ContactMe-eng": "Contact Me",
     "txt-Contact-Form-cat": "Posem-nos en contacte",
     "txt-Contact-Form-eng": "Contact",
-    "txt-aboutMe-maintext-cat": "Sempre buscant com trobar una solució simple i escalable. Amb experiencia amb programació modular i orientada amb objectes, sempre disenyar i conceptuant-ho abans de implementar-ho per tenir la millor probabilitat de encertar-la a la primera. Sempre estic buscant per apendre nous llenguatges de programacio per millorar el reonament i abstracció de problemes, i per coneixer les caracteristiques de les diferents tecnologies que donen una solució unica al problema. Vaig estar tota la meva infancia creant videojocs amb el motor Unit i C# i disenyant el meu propi art amb pixel-art.",
+    "txt-aboutMe-maintext-cat": "Sempre buscant com trobar una solució simple i escalable. Amb experiència amb programació modular i orientada amb objectes, sempre dissenyar i conceptuant-ho abans d'implementar-ho per tenir la millor probabilitat d'encertar-la a la primera. Sempre estic buscant per aprendre nous llenguatges de programació per millorar el raonament i abstracció de problemes, i per conèixer les característiques de les diferents tecnologies que donen una solució única al problema. Vaig estar tota la meva infància creant videojocs amb el motor Unit i C# i dissenyant el meu propi art amb píxel-art.",
     "txt-aboutMe-maintext-eng": " Always searching to get a simple and scalable solution. With experience in modular programming and object-oriented, always design and study it to see potential errors before implementing it to get the best chance of doing it right the first time.I like to always learn new programming languages to improve the skills that all have in common, problem-solving. And to know in each specific case which technology will be the most useful to implement. I spend my youth creating video games with C# in Unity and making my pixel art to use in my games.",
     "txt-Education-cat": "Educació",
     "txt-Education-eng": "Education",
-    "txt-university-cat": " Universitat de Girona - Enginyeria Informatica",
+    "txt-university-cat": " Universitat de Girona - Enginyeria Informàtica",
     "txt-university-eng": " University of Girona - Computer Engineering",
-    "txt-Work-cat": "Experiencies Laborals:",
+    "txt-Work-cat": "Experiències Laborals:",
     "txt-Work-eng": "Past Work Experience:",
     "txt-Title-Work-eng" : "SYSTEMS MANAGEMENT ASSISTANT",
-    "txt-Title-Work-cat" : "ASISTENT DE SISTEMES",
-    "txt-Desc-Work-cat" : "Manteiment, organitzacio i reparació  de sistemes, creació d'instalacions automatiques i ediciò de video.",
+    "txt-Title-Work-cat" : "ASSISTENT DE SISTEMES",
+    "txt-Desc-Work-cat" : "Manteniment, organització i reparació de sistemes, creació d'instal·lacions automàtiques i edició de vídeo.",
     "txt-Desc-Work-eng" : "Organitzation and repairing of System Managments, automatic installation and video recordings.",
-    "txt-Hover-cat":"Seleciona per mostrar més detalls:",
+    "txt-Hover-cat":"Selecciona per mostrar més detalls:",
     "txt-Hover-eng": "Hover to show more details:"  
 
 }
