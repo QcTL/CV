@@ -20,18 +20,22 @@
                         <h1>Jordi Plana </h1>
                     </div>
                     <div class="subText">
-                        <h2>Computer Engineer</h2>
+                        <h2 class="txt-ComputerEngineer">Computer Engineer</h2>
                     </div>
                 <div class="topCard-graphic" id="topCard-graphic">
-
                 </div>
+                
                 </div>
                 <div class="topCard-right">
                     <div class="right-menu">
                         <ul>    
-                            <li onclick="document.getElementById('prog-section').scrollIntoView({behavior: 'smooth', block: 'center'});">Programing Llenguages</li>
-                            <li onclick="document.getElementById('aboutme-section').scrollIntoView({behavior: 'smooth', block: 'center'});">About Me</li>
-                            <li onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth', block: 'center'});">Contact Me</li>
+                            <li onclick=" changeLanguage('cat');">Català</li>
+                            <li onclick=" changeLanguage('eng');">English</li>
+                        </ul>
+                        <ul>    
+                            <li onclick="document.getElementById('prog-section').scrollIntoView({behavior: 'smooth', block: 'center'});" class="txt-ProgramingLanguages">Programing Languages</li>
+                            <li onclick="document.getElementById('aboutme-section').scrollIntoView({behavior: 'smooth', block: 'center'});" class="txt-AboutMe">About Me</li>
+                            <li onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth', block: 'center'});" class="txt-ContactMe">Contact Me</li>
                         </ul>
                     </div>
                 </div>
@@ -51,17 +55,17 @@
             </div>
 
             <div class = "list-and-show">
-                <div class ="block-info-projecte" onload="changeCardProjects('Simply Timer','C++','This desktop app made with the graphical library Raylib, is a simple application to keep track of the progress of various timers at the same time, helping the user see how are they spending their time. Or simply to keep track of the time you spend on each project.')">
+                <div class ="block-info-projecte" onload="changeCardProjects('Simply Timer','C++','This desktop app made with the graphical library Raylib, is a simple application to keep track of the progress of various timers at the same time, helping the user see how they are spending their time. Or simply to keep track of the time you spend on each project.')">
                     <h2 class="project-name" id="cart-project-name">Simply Timer</h2>    
                     <h3 class="project-len"  id="cart-project-len"> C++</h3>
-                    <p class="project-disc" id="cart-project-disc">This desktop app made with the graphical library Raylib, is a simple application to keep track of the progress of various timers at the same time, helping the user see how are they spending their time. Or simply to keep track of the time you spend on each project.</p>
+                    <p class="project-disc" id="cart-project-disc">This desktop app made with the graphical library Raylib, is a simple application to keep track of the progress of various timers at the same time, helping the user see how they are spending their time. Or simply to keep track of the time you spend on each project.</p>
                     <p class="project-link"> <a id="cart-project-link" href="https://google.com" target="_blank">Link Project</a> </p>
                 </div>
                 <div class="scroll">
-                    <h3>Hover to show more details:</h3>
+                    <h3 class="txt-Hover">Hover to show more details:</h3>
                     <div class="scroll-div">
                         <ul>
-                            <li><div class="project-cont" onmouseenter="changeCardProjects('Simply Timer','C++','This desktop app made with the graphical library Raylib, is a simple application to keep track of the progress of various timers at the same time, helping the user see how are they spending their time. Or simply to keep track of the time you spend on each project.','')"><p class="project-name">Simply Timer</p><p class="project-len">C++</p></div></li>
+                            <li><div class="project-cont" onmouseenter="changeCardProjects('Simply Timer','C++','This desktop app made with the graphical library Raylib, is a simple application to keep track of the progress of various timers at the same time, helping the user see how they are spending their time. Or simply to keep track of the time you spend on each project.','')"><p class="project-name">Simply Timer</p><p class="project-len">C++</p></div></li>
                             <li><div class="project-cont" onmouseenter="changeCardProjects('Automatic Avatar','Python','Application made using the library Pygame to generate video reaction with user-introduced images, allows to change the background, moving slowly if the user isn\'t speaking and jumping and changing avatar if it does. Everything is customizable to generate the video avatar reaction you desire.','')"><p class="project-name">Automatic Avatar</p><p class="project-len">Python</p></div></li>
                             <li><div class="project-cont" onmouseenter="changeCardProjects('MasterMind-JS','JS','Recreated the classing game MasterMind in Javascript, with clean and minimalistic design, keeping track of the wins and losses','https://github.com/QcTL/MasterMind-JS')"><p class="project-name">MasterMind-JS</p><p class="project-len">JS CSS HTML</p></div></li>
                             <li><div class="project-cont" onmouseenter="changeCardProjects('Water It','Python','An app made with Tkinter in python to keep track of your plants, you can set the time between watering the plant to let the app keep track of what plants you have to water each day.','https://github.com/QcTL/WaterIt')"><p class="project-name">Water It</p><p class="project-len">Python</p></div></li>
@@ -78,23 +82,23 @@
     </div>
     <div id="aboutme-section">
         <div class="aboutme-div">
-            <h2 class="aboutme-title">About me:</h2>
-            <p class="aboutme-maintext">
+            <h2 class="aboutme-title txt-AboutMe">About me:</h2>
+            <p class="aboutme-maintext txt-aboutMe-maintext">
                 Always searching to get a simple and scalable solution. With experience in modular programming and object-oriented, always design and study it to see potential errors before implementing it to get the best chance of doing it right the first time.
                 I like to always learn new programming languages to improve the skills that all have in common, problem-solving. And to know in each specific case which technology will be the most useful to implement.
                 I spend my youth creating video games with C# in Unity and making my pixel art to use in my games. 
             </p>
-            <h2 class="aboutme-title">Education:</h2>
-            <h3>
+            <h2 class="aboutme-title txt-Education">Education:</h2>
+            <h3 class="txt-university">
                 University of Girona - Computer Engineering
             </h3>
             <p class ="work-time">2020 - 2024</p>
             <br>
         </div>
         <div class="pastExp-div">
-            <h2 class="pastExp-title">Past Work Experience:</h2>
+            <h2 class="pastExp-title txt-Work">Past Work Experience:</h2>
             <ul>
-                <li><h3 class ="work-title">SYSTEMS MANAGEMENT ASSISTANT</h3><p class ="work-time">5/2018-5/2018</p><p class ="work-desc">Organitzation and repairing of System Managments, automatic installation and video recordings</p></li>
+                <li><h3 class ="work-title txt-Title-Work">SYSTEMS MANAGEMENT ASSISTANT</h3><p class ="work-time">5/2018-5/2018</p><p class ="work-des txt-Desc-Work">Organitzation and repairing of System Managments, automatic installation and video recordings</p></li>
             </ul>
         </div>
     </div>
@@ -103,7 +107,7 @@
     <div id="contact-section">
         <div class="contact-and-info">
                 <div class="contact">
-                    <h2>Contact</h2>
+                    <h2 class="txt-Contact-Form">Contact</h2>
                     <form action="https://formsubmit.co/multimediacontactus@gmail.com" method="POST" onsubmit="onSummitForm()">
                         <div class="textfields">
                         <label>Name</label>
@@ -120,7 +124,7 @@
                     </div>
                 </div>
             <div class="social-info">
-                <h3>Where to find me:</h3>
+                <h3 class="txt-ContactMe">Where to find me:</h3>
                 <p><img src="img/icn_linkedin.png" width="25" height="25" id="img-linkedin" alt="Linkedin Icon"></img><a href="https://www.linkedin.com/in/jordi-plana-810b96240/"> Linkedin</a></p>
                 <p><img src="img/icn_github.png" width="25" height="25" id="img-twitter" alt="GitHub Icon"></img><a href="https://github.com/QcTL/"> GitHub</a></p>
                 <p><img src="img/icn_stack.png" width="25" height="25" id="img-so" alt="StackOverflow Icon"></img><a href="https://stackoverflow.com/users/13067345/qctl"> StackOverFlow</a></p>
@@ -131,10 +135,10 @@
 
     <div id="menu-nav"class ="menuDisabled">
         <ul>    
-            <li onclick="document.getElementById('center-topCard').scrollIntoView({behavior: 'smooth', block: 'center'});">Title</li>
-            <li onclick="document.getElementById('prog-section').scrollIntoView({behavior: 'smooth', block: 'center'});">Programing Llenguages</li>
-            <li onclick="document.getElementById('aboutme-section').scrollIntoView({behavior: 'smooth', block: 'center'});">About Me</li>
-            <li onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth', block: 'center'});">Contact Me</li>
+            <li onclick="document.getElementById('center-topCard').scrollIntoView({behavior: 'smooth', block: 'center'});" class="txt-Menu-Title">Title</li>
+            <li onclick="document.getElementById('prog-section').scrollIntoView({behavior: 'smooth', block: 'center'});" class="txt-ProgramingLanguages">Programing Llenguages</li>
+            <li onclick="document.getElementById('aboutme-section').scrollIntoView({behavior: 'smooth', block: 'center'});" class="txt-AboutMe">About Me</li>
+            <li onclick="document.getElementById('contact-section').scrollIntoView({behavior: 'smooth', block: 'center'});" class="txt-ContactMe">Contact Me</li>
         </ul>
     </div>
 </body>

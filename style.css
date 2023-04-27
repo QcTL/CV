@@ -187,11 +187,17 @@
 
 /*RIGHT NAV Menu*/
 .right-menu{
-    position: absolute;
-    bottom: 0px;
-    margin-bottom: 100px;
+
     margin-right: 20px;
+
+    height: 100%;
+    width: 100%;
     right: 0px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-end;
 }
 
 .right-menu ul{
