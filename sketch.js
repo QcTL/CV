@@ -2,6 +2,7 @@ var matPointStrt = []
 var matPointCrnt = []
 
 function setup() {
+	background(15,15,15);
 	let doc = document.getElementById("topCard-graphic");
 	createCanvas(doc.clientWidth,doc.clientHeight).parent('topCard-graphic');
 
