@@ -63,11 +63,13 @@ dirText = {
     "txt-Desc-Work-cat" : "Manteniment, organització i reparació de sistemes, creació d'instal·lacions automàtiques i edició de vídeo.",
     "txt-Desc-Work-eng" : "Organitzation and repairing of System Managments, automatic installation and video recordings.",
     "txt-Hover-cat":"Selecciona per mostrar més detalls:",
-    "txt-Hover-eng": "Hover to show more details:"  
+    "txt-Hover-eng": "Hover to show more details:",
+    "txt-Menu-Title-eng": "Title",
+    "txt-Menu-Title-cat": "Títol", 
 
 }
 
-listElementsTranslation = ["txt-ComputerEngineer", "txt-ProgramingLanguages","txt-AboutMe", "txt-ContactMe", "txt-aboutMe-maintext", "txt-Education", "txt-university" , "txt-Work","txt-Title-Work","txt-Desc-Work","txt-Hover","txt-Contact-Form" ]
+listElementsTranslation = ["txt-ComputerEngineer", "txt-ProgramingLanguages","txt-AboutMe", "txt-ContactMe", "txt-aboutMe-maintext", "txt-Education", "txt-university" , "txt-Work","txt-Title-Work","txt-Desc-Work","txt-Hover","txt-Contact-Form", "txt-Menu-Title" ]
 
 
 function changeLanguage(newLen){
